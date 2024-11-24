@@ -7,35 +7,39 @@
     <title>Florian Tank</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div id="header">
         <p>Florian Tank</p>
         <div>
-            <p>Projeke</p>
-            <p>Skills</p>
-            <p>Lebenslauf</p>
-            <p>Kontakt</p>
+            <p id="headline-projects">Projeke</p>
+            <p id="headline-skills">Skills</p>
+            <p id="headline-resume">Lebenslauf</p>
+            <p id="headline-contact">Kontakt</p>
         </div>
     </div>
 
     <div id="welcome">
         <div class="welcome-text light">
-            <h4>Kotlin Developer based in Hamburg</h4>
-            <p>With my 7 Years of experience in Android Development, while 5 of them I used Kotlin...</p>
-            <p>Techstack: ...</p>
+            <h4>Softwareentwickler aus Hamburg</h4>
+            <p>Ich entwickle seit 7 Jahren Apps hauptberuflich professionell nach den Anforderungen verschiedenster Kund:innen. Die Arbeit in großen Argenturen hat mir die Möglichkeit geboten die verschiedensten Projekte mitzugestalten und dabei zu lernen und zu wachsen.</p>
+            <p>Die Projekte an denen ich die meiste Zeit mitarbeiten durfte, haben dabei zwischen 500.000 und 10 Millionen Downloads, wodurch ich ein großes Wissen in skalierbarer und sauberer Software entwickeln konnte.</p>
+            <p>Meine Meinung über Architektur und einer gelungenen Datenstruktur, sowie einfacher Kommunikation zwischen Front- und Backend ist fundiert, aber gerne hinterfrage ich alte Muster, ordne mich den Entscheidungen des Teams oder der Kund:innen unter und bleibe auf dem neusten Stand von best Practises.</p>
+            <p>Mein aktueller favorisierter Techstack für native App-Entwicklung beläuft sich auf:</p>
+            <ul>
+                <li>Kotlin</li>
+                <li>Kotlin Multiplatform</li>
+                <li>Compose Multiplatform</li>
+                <li>MVVM, teilweiße auch MVI</li>
+                <li>Github mit Github Action als CI/CD Tool</li>
+            </ul>
+            <br>
+            <p>Neben meiner langjährigen hauptberuflichen Tätigkeit als nativer App-Entwickler, bilde ich mich privat in Web und Backend Entwicklung aus.</p>
         </div>
 
         <img src="./images/MeLarge.jpg" alt="Image of myself">
-
-        <div class="welcome-project-stats">
-            <p>Seit <span>2017</span> <br> App Entwickler</p>
-            <div class="line-vertical"></div>
-            <p>Ueber <span>8</span> <br> Projekte realisiert</p>
-            <div class="line-vertical"></div>
-            <p><span>100</span> <br> Siowfjiow JSOI dwqijdo</p>
-        </div>
     </div>
 
     <div id="projects" class="grid-section-with-header">
@@ -46,44 +50,44 @@
             <p class="project-subline">Downloads: 500.000</p>
         </div>
         <div class="project">
-            <h4 class="project-headline">HVV Switch</h4>
-            <img class="project-image" src="images/switch.png" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <h4 class="project-headline">HVV Auskunft</h4>
+            <img class="project-image" src="images/hvvInfo.webp" alt="HVV Auskunft">
+            <p class="project-subline">Downloads: 1 Million</p>
         </div>
         <div class="project">
             <h4 class="project-headline">ZDF Heute</h4>
-            <img class="project-image" src="images/zdfheute.webp" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <img class="project-image" src="images/zdfheute.webp" alt="ZDF Heute">
+            <p class="project-subline">Downloads: 1 Million</p>
         </div>
         <div class="project">
             <h4 class="project-headline">ZDF Mediathek</h4>
-            <img class="project-image" src="images/switch.png" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <img class="project-image" src="images/zdfMediathek.webp" alt="ZDF Mediathek">
+            <p class="project-subline">Downloads: 10 Millionen</p>
         </div>
         <div class="project-spacer"></div>
         <div class="project">
-            <h4 class="project-headline">HVV Switch</h4>
-            <img class="project-image" src="images/toggolino.jpg" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <h4 class="project-headline">SuperRTL - Toggo</h4>
+            <img class="project-image" src="images/toggolino.jpg" alt="SuperRTL - Toggo">
+            <p class="project-subline">Downloads: 1 Million</p>
         </div>
         <div class="project">
-            <h4 class="project-headline">HVV Switch</h4>
-            <img class="project-image" src="images/myFoodDoc.webp" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <h4 class="project-headline">MyFoodDoc</h4>
+            <img class="project-image" src="images/myFoodDoc.png" alt="MyFoodDoc">
+            <p class="project-subline">Downloads: 50.000</p>
         </div>
         <div class="project">
-            <h4 class="project-headline">HVV Switch</h4>
-            <img class="project-image" src="images/switch.png" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <h4 class="project-headline">Vattenfall - Enpure</h4>
+            <img class="project-image" src="images/vattenfall.webp" alt="Vattenfall - Enpure">
+            <p class="project-subline">Downloads: 100.000</p>
         </div>
         <div class="project">
-            <h4 class="project-headline">HVV Switch</h4>
-            <img class="project-image" src="images/switch.png" alt="HVV Switch">
-            <p class="project-subline">Downloads: 500.000</p>
+            <h4 class="project-headline">Medisteps</h4>
+            <img class="project-image" src="images/medilearn.png" alt="HVV Switch">
+            <p class="project-subline">Downloads: 1.000</p>
         </div>
     </div>
 
-    <div id="skills" class="grid-section-with-header">
+    <div id="skills" class="grid-section-with-header darker-section">
         <h2>Skillset</h2>
         <div class="skill-container">
             <h4>Kotlin</h4>
@@ -95,68 +99,140 @@
         <div class="skill-container">
             <h4>MVVM</h4>
             <div class="progress-bar">
-                <div class="progress" style="width: 80%;"></div>
+                <div class="progress" style="width: 90%;"></div>
             </div>
         </div>
 
         <div class="skill-container">
             <h4>Jetpack Compose</h4>
             <div class="progress-bar">
-                <div class="progress" style="width: 20%;"></div>
+                <div class="progress" style="width: 80%;"></div>
             </div>
         </div>
 
         <div class="skill-container">
             <h4>Android</h4>
             <div class="progress-bar">
-                <div class="progress" style="width: 100%;"></div>
+                <div class="progress" style="width: 95%;"></div>
             </div>
         </div>
 
         <div class="skill-container">
-            <h4>Git</h4>
+            <h4>Kotlin Multiplatform</h4>
             <div class="progress-bar">
-                <div class="progress" style="width: 50%;"></div>
+                <div class="progress" style="width: 80%;"></div>
             </div>
         </div>
 
         <div class="skill-container">
-            <h4>Kotlin</h4>
-            <div class="progress-bar">
-                <div class="progress" style="width: 50%;"></div>
-            </div>
-        </div>
-
-        <div class="skill-container">
-            <h4>Kotlin</h4>
+            <h4>Ktor Backend</h4>
             <div class="progress-bar">
                 <div class="progress" style="width: 60%;"></div>
             </div>
         </div>
 
         <div class="skill-container">
-            <h4>Kotlin</h4>
+            <h4>SQL Delight</h4>
             <div class="progress-bar">
-                <div class="progress" style="width: 40%;"></div>
+                <div class="progress" style="width: 60%;"></div>
+            </div>
+        </div>
+
+        <div></div>
+
+        <div class="skill-container">
+            <h4>Gradle</h4>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
             </div>
         </div>
 
         <div class="skill-container">
-            <h4>Kotlin</h4>
+            <h4>Git</h4>
             <div class="progress-bar">
-                <div class="progress" style="width: 15%;"></div>
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <h4>Github Actions</h4>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <h4>Jenkins</h4>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <h4>HTML CSS JS</h4>
+            <div class="progress-bar">
+                <div class="progress" style="width: 30%;"></div>
             </div>
         </div>
     </div>
 
-    <div id="resume">
-        <h4>Berufserfahrung und Lebenslauf</h4>
-        <div id="resume-timeline"></div>
+    <div id="resume" class="grid-section-with-header">
+        <h2>Berufserfahrung und Lebenslauf</h4>
+        <div id="resume-timeline">
+            <div class="event">
+                <p class="resume-yearspan">Oktober 2020 - Heute</p>
+                <p>Android Entwickler bei Jakala, Hamburg</p>
+            </div>
+            <div class="line"></div>
+            <div class="event-empty"></div>
+
+            <div class="event-empty"></div>
+            <div class="line"></div>
+            <div class="event">
+                <p class="resume-yearspan">Mai 2018 - September 2020</p>
+                <p>Android Entwickler bei Appsfactory, Hamburg</p>
+            </div>
+
+            <div class="event">
+                <p class="resume-yearspan">September 2017 - März 2018</p>
+                <p>Werksstudent Android Entwickler bei Appsfactory, Hamburg</p>
+            </div>
+            <div class="line"></div>
+            <div class="event-empty"></div>
+
+            <div class="event-empty"></div>
+            <div class="line"></div>
+            <div class="event">
+                <p class="resume-yearspan">März 2017 - Juni 2017</p>
+                <p>Praktikant Android Entwickler bei Appsfactory, Hamburg</p>
+            </div>
+
+            <div class="event">
+                <p class="resume-yearspan">Oktober 2014 - Februar 2018</p>
+                <p>Hochschule für Technik, Wirtschaft und Kultur, Leipzig — Medieninformatik - Bachelor of Science</p>
+            </div>
+            <div class="line"></div>
+        </div>
     </div>
 
-    <div id="contact"></div>
+    <div id="contact" class="grid-section-with-header darker-section">
+        <h2>Kontakt</h2>
+        <p>Ich bin aktuell sehr glücklich bei meinem Arbeitgeber, höre mir aber gerne alle Angebote an. An kleinen freiberuflichen Aufträge für nebenbei bin ich ebenfalls interessiert. Egal ob es dabei um App-Entwicklung, Web-Entwicklung oder eine Beratung handelt. Kontaktieren Sie mich gerne mit egal welchem Anliegen.</p>
+         
+        <p>Email - florian.tank95+dev@gmail.com </p>
 
-    <div id="footer"></div>
+        <button id="email-btn" onclick="window.location.href='mailto:florian.tank95+dev@gmail.com'">Email</button>
+        <button id="linkedin-btn" onclick="window.open('https://www.linkedin.com/in/florian-tank-03567a174/', '_blank')">LinkedIn</button>   
+     </div>
+
+    <div id="footer">
+        <p>Erstellt von Florian Tank. Alle Rechte vorbehalten.</p>
+        <div id="footer-links">
+            <a href="imprint.html">Impressum</a>
+            <div class="line-vertical"></div>
+            <a href="privacy.html">Datenschutzerklärung</a>
+        </div>
+    </div>
 </body>
 
 </html>
