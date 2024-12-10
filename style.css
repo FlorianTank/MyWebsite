@@ -20,6 +20,8 @@
     --font-large: 24px;
     --font-xlarge: 36px;
     --font-xxlarge: 48px;
+
+    --progress-bar-min-width: 170px
 }
 
 body {
@@ -251,6 +253,9 @@ button:hover {
 
 .skill-container {
     padding: var(--spacing-medium);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .skill-container>h4 {
@@ -263,7 +268,7 @@ button:hover {
     background-color: white;
     border-radius: 25px;
     padding: 4px;
-    min-width: 170px;
+    min-width: var(--progress-bar-min-width);
     height: 12px;
 }
 
@@ -449,5 +454,11 @@ button:hover {
     #resume {
         padding: 24px;
         text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    :root {
+        --progress-bar-min-width: 30%
     }
 }
