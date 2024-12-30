@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf');
+}
 
 :root {
     --dark-bg-color: #1F2937;
@@ -218,7 +221,7 @@ button:hover {
     align-self: center;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
@@ -410,7 +413,7 @@ button:hover {
         --spacing-xxlarge: 32px;
         --spacing-mega: 40px;
         --spacing-xmega: 60px;
-    
+
         --spacing-sides: 2%;
 
         --font-small: 12px;
