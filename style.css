@@ -111,7 +111,6 @@ button:hover {
     font-size: x-large;
     padding: var(--spacing-xlarge) 0px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 #header>div {
@@ -434,6 +433,19 @@ button:hover {
         display: block;
         background: var(--dark-bg-color);
         padding: 16px;
+    }
+
+    .welcome-text {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .welcome-text>ul {
+        text-align: start;
+    }
+
+    #header {
+        display: none;
     }
 
     #welcome>img {
