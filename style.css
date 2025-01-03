@@ -403,7 +403,7 @@ button:hover {
     background-color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     :root {
         --spacing-small: 8px;
         --spacing-medium: 12px;
@@ -475,5 +475,9 @@ button:hover {
 @media (max-width: 850px) {
     :root {
         --progress-bar-min-width: 30%
+    }
+
+    #header>p {
+        display: none;
     }
 }
